@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
           </Link>
           <Link 
             to="/expert-login"
-            className="w-full sm:w-auto flex items-center justify-center px-10 py-5 text-base font-semibold rounded-xl text-slate-700 bg-white border border-slate-200 hover:bg-slate-50 transition-all hover:border-slate-300"
+            className="w-full sm:w-auto flex items-center justify-center px-10 py-5 text-base font-semibold rounded-xl text-slate-700 bg-white border border-slate-200 hover:bg-primary/20 transition-all hover:border-slate-300"
           >
             Join as Expert
           </Link>
