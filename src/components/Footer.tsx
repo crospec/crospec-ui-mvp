@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-12 mb-16">
           {/* Brand Column */}
           <div className="col-span-2">
-            <div className="flex items-center mb-1">
+            <div className="flex items-center mb-2">
               <div className="w-10 h-10 rounded-lg flex items-center justify-center">
                 <img
                   src="/assets/crospex_logo_bgwhite.png"
@@ -30,8 +30,8 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h4 className="text-xs font-bold text-slate-900 uppercase tracking-widest mb-5">Our Approach</h4>
-            <ul className="space-y-4 text-sm text-slate-500 ">
+            <h4 className="text-xs font-bold text-slate-900 uppercase tracking-widest mb-5 mt-1">Our Approach</h4>
+            <ul className="space-y-3 text-sm text-slate-500 ">
               <li><a href="#approach" className="text-sm text-slate-500 hover:text-primary transition-colors">Data Ingestion</a></li>
               <li><a href="#approach" className="text-sm text-slate-500 hover:text-primary transition-colors">Synthetic Amplification</a></li>
               <li><a href="#approach" className="text-sm text-slate-500 hover:text-primary transition-colors">Active Learning</a></li>
@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
 
           <div>
             <h4 className="text-xs font-bold text-slate-900 uppercase tracking-widest mb-5">Audience</h4>
-            <ul className="space-y-4 text-sm text-slate-500">
+            <ul className="space-y-3 text-sm text-slate-500">
               <li><a href="#audience" className="text-sm text-slate-500 hover:text-primary transition-colors">Power & Utilities</a></li>
               <li><a href="#audience" className="text-sm text-slate-500 hover:text-primary transition-colors">Oil & Gas</a></li>
               <li><a href="#audience" className="text-sm text-slate-500 hover:text-primary transition-colors">Infrastructure</a></li>
@@ -51,7 +51,7 @@ const Footer: React.FC = () => {
 
           <div>
             <h4 className="text-xs font-bold text-slate-900 uppercase tracking-widest mb-5">Company</h4>
-            <ul className="space-y-4 text-sm text-slate-500">
+            <ul className="space-y-3 text-sm text-slate-500">
               <li><a href="#audience" className="text-sm text-slate-500 hover:text-primary transition-colors">About Us</a></li>
               <li><a href="#audience" className="text-sm text-slate-500 hover:text-primary transition-colors">Blog & Research</a></li>
               <li><a href="#audience" className="text-sm text-slate-500 hover:text-primary transition-colors">Contact</a></li>
@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
               <h5 className="font-bold text-slate-900 mb-2 text-lg tracking-tight">Subscribe to our newsletter</h5>
               <p className="text-sm text-slate-500 leading-relaxed">Get the latest updates on datasets and AI trends. No spam, just high-value insights.</p>
             </div>
-            <div className="flex w-full md:w-auto md:min-w-[400px] items-center gap-2 bg-slate-50 border border-slate-200 rounded-xl px-2 py-2 focus-within:border-primary/50 focus-within:ring-4 focus-within:ring-primary/5 transition-all">
+            <div className="flex w-full md:w-auto md:min-w-100 items-center gap-2 bg-slate-50 border border-slate-200 rounded-xl px-2 py-2 focus-within:border-primary/50 focus-within:ring-4 focus-within:ring-primary/5 transition-all">
               <input
                 type="email"
                 placeholder="name@company.com"
