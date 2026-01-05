@@ -26,16 +26,16 @@ const Header: React.FC = () => {
         }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-18">
           {/* Logo */}
           <Link to="/" className="flex items-center cursor-pointer">
             <img
               src="/assets/crospex_logo_bgwhite.png"
               alt="Logo"
-              className="w-10 h-10 md:w-16 md:h-16 rounded-xl object-contain scale-100 md:scale-100"
+              className="w-10 h-10 md:w-10 md:h-10 rounded-xl object-contain"
             />
-            <span className="text-4xl font-bold tracking-tight text-slate-900 -ml-1">
-              Crospex
+            <span className="text-3xl font-bold tracking-tight text-slate-900">
+              crospex
             </span>
           </Link>
 

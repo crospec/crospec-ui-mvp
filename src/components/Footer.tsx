@@ -9,15 +9,15 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-12 mb-16">
           {/* Brand Column */}
           <div className="col-span-2">
-            <div className="flex items-center gap-2 mb-2">
+            <div className="flex items-center mb-1">
               <div className="w-10 h-10 rounded-lg flex items-center justify-center">
                 <img
                   src="/assets/crospex_logo_bgwhite.png"
                   alt="Logo"
-                  className="w-16 h-16 rounded-xl object-contain scale-125"
+                  className="w-14 h-14 rounded-xl object-contain"
                 />
               </div>
-              <span className="text-2xl font-bold tracking-tight text-slate-900">Crospex</span>
+              <span className="text-3xl font-bold tracking-tight text-slate-900">crospex</span>
             </div>
             <p className="text-sm text-slate-500 max-w-xs leading-relaxed">
               Transforming raw inspection data into high-recall perception datasets.
