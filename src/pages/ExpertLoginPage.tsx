@@ -10,22 +10,15 @@ const ExpertLoginPage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-slate-950 relative overflow-hidden font-sans selection:bg-primary/30 selection:text-primary-dark">
-      {/* Background Effects */}
-      <div className="absolute inset-0 z-0">
-        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary/10 rounded-full blur-[120px] animate-pulse"></div>
-        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-indigo-500/10 rounded-full blur-[120px] animate-pulse" style={{ animationDelay: '2s' }}></div>
-        <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'radial-gradient(#ffffff 1px, transparent 1px)', backgroundSize: '40px 40px' }}></div>
-      </div>
-
       {/* Navigation */}
       <nav className="relative z-10 max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3 group">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center">
             <div className="w-8 h-8 rounded-lg flex items-center justify-center">
               <img
                 src="/assets/crospex_logo_bgblack.png"
                 alt="Logo"
-                className="w-10 h-10 md:w-16 md:h-16 rounded-xl object-contain scale-125 md:scale-120"
+                className="w-12 h-12 md:w-14 md:h-14 rounded-xl object-contain"
               />
             </div>
             <span className="text-xl font-bold tracking-tight text-white">Crospex</span>
@@ -41,7 +34,7 @@ const ExpertLoginPage: React.FC = () => {
               Expert Network
             </div>
             <h1 className="text-4xl lg:text-6xl font-bold text-white tracking-tight leading-[1.1] mb-6">
-              Validate the Future of <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-indigo-400">Industrial Inspection AI</span>
+              Validate the Future of <span className="text-primary-dark bg-clip-text bg-gradient-to-r from-primary to-indigo-400">Industrial Inspection AI</span>
             </h1>
             <p className="text-lg text-slate-400 leading-relaxed max-w-md">
               Join a vetted network of certified domain experts validating high-stakes inspection datasets used in critical infrastructure systems.            </p>

@@ -10,13 +10,6 @@ const PilotPage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-200 selection:bg-primary/30 selection:text-primary-light font-sans">
-      {/* Background Elements */}
-      <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary/10 blur-[120px] rounded-full"></div>
-        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-indigo-500/10 blur-[120px] rounded-full"></div>
-        <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 mix-blend-soft-light"></div>
-      </div>
-
       <nav className="relative z-10 px-6 py-8 max-w-7xl mx-auto flex justify-between items-center">
         <Link to="/" className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors group">
           <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
@@ -24,12 +17,12 @@ const PilotPage: React.FC = () => {
         </Link>
 
         <Link to="/" className="flex items-center cursor-pointer">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center">
             <div className="w-8 h-8 rounded-lg flex items-center justify-center">
               <img
                 src="/assets/crospex_logo_bgblack.png"
                 alt="Logo"
-                className="w-10 h-10 md:w-16 md:h-16 rounded-xl object-contain scale-125 md:scale-120"
+                className="w-12 h-12 md:w-14 md:h-14 rounded-xl object-contain"
               />
             </div>
             <span className="text-xl font-bold tracking-tight text-white">Crospex</span>
@@ -42,7 +35,7 @@ const PilotPage: React.FC = () => {
         <div className="space-y-8">
           <div>
             <h1 className="text-4xl lg:text-6xl font-bold text-white tracking-tight leading-[1.1] mb-6">
-              Accelerate Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-indigo-400">Inspection Intelligence</span>
+              Accelerate Your <span className="text-primary-dark bg-clip-text bg-gradient-to-r from-primary to-indigo-400">Inspection Intelligence</span>
             </h1>
             <p className="text-lg text-slate-400 leading-relaxed max-w-md">
               Join our exclusive enterprise pilot program to transform how you process and analyze critical asset data.
